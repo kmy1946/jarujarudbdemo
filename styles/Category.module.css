@@ -1,0 +1,31 @@
+.menu {
+  text-align: center;
+}
+.menu ul {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  padding: 5px;
+}
+
+input[type="checkbox"].on_off + ul{
+  height: 0;
+  overflow: hidden;
+}
+
+input[type="checkbox"].on_off:checked + ul{
+  height: auto;
+  color: #226ac9;
+  cursor: pointer;
+}
+.menu ul li:hover{
+  color: #3db8ff;
+  font-weight: 700;
+}

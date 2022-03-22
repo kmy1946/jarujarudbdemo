@@ -1,6 +1,4 @@
-import Head from "next/head";
 import Link from 'next/link';
-import Header from "./header";
 import Layout from "./components/base/layout";
 
 export default function Other(){
