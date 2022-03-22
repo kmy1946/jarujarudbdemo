@@ -1,6 +1,6 @@
 import { makeStyles } from '@mui/styles';
 import styles from '../styles/Home.module.css';
-import Layout from './components/base/layout';
+import Layout from './components/layout';
 import Head from 'next/head';
 import DataList from './components/products/DataList';
 import { useEffect, useState } from 'react';

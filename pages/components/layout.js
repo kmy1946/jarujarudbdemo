@@ -1,13 +1,8 @@
 import Head from "next/head";
 import styles from './layout.module.css';
-import Header from "./header";
-import Footer from '../../footer';
-import { AppBar, Toolbar } from "@mui/material";
-import menus from '../../../data/menu.json';
-import Link from "next/link";
-import { makeStyles } from "@mui/styles";
-import Heading from "./Heading/Heading";
-
+import Header from "./base/header";
+import Footer from '../footer';
+import Heading from "./base/Heading/Heading";
 
 export default function Layout(props) {
   return (
