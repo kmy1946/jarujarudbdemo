@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import Layout from "./components/base/layout";
+import Layout from "./components/layout";
 import '../styles/Category.module.css';
 import categories from '../data/categories.json';
 import subcategories from '../data/subcategories.json';

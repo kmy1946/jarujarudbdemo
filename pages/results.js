@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Layout from "./components/base/layout";
+import Layout from "./components/layout";
 
 export default function Other(){
   const title = 'Results';

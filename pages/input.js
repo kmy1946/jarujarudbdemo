@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from 'next/link';
-import Header from "./components/base/header";
-import Layout from "./components/base/layout";
+import Layout from "./components/layout";
 
 export default function Other(){
   const title = 'Input';
