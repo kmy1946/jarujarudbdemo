@@ -1,8 +1,8 @@
 {
   "name": "detector",
-  "version": "0.1.0",
-  "homepage": "/",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +11,8 @@
     "deploy": "firebase deploy --only functions,hosting"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.4.4",
     "@mui/material": "^5.4.4",
     "@mui/styled-engine-sc": "^5.4.2",
